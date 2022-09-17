@@ -7,7 +7,9 @@ class StringFunctions {
      * capitalize('HELLO WORLD') // 'Hello world'
      */
     capitalize(input) { 
-      return input; 
+
+      //return input.charAt(0).toUpperCase() + input.slice(1).toLowerCase(); 
+      return input.toUpperCase();
     }
     /**
      * Returns a reversed string. Example: "abc" => "cba"
@@ -17,7 +19,10 @@ class StringFunctions {
      * reverse('abc') // 'cba'
      */
     reverse(input) { 
-      return input;
+      var splitStr = input.split("");
+      var reverseArr = splitStr.reverse();
+      var joinArr = reverseArr.join("");
+      return joinArr;
     }
     /**
      * Returns an array of the words in a string
@@ -26,7 +31,8 @@ class StringFunctions {
      * @example
      * words('hello world') // ['hello', 'world']
      */
-    split(input) { 
-      return [input];
+    split(input) {
+      var inputArr = input.split(" ");
+      return inputArr;
     }
 }

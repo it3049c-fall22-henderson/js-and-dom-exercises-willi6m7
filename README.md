@@ -5,7 +5,7 @@ JS and DOM Exercise
 Instructions to this assignment can be found [here](https://it3049c.github.io/Material/Assignments/2.JavaScript_Exercises/).
 
 ## Checklist:
-- [ ] update the assignment checks above to the correct link. - Done Automatically
+- [x] update the assignment checks above to the correct link. - Done Automatically
 - [x] All Unit tests passed.
 - [x] filled out the self-evaluation.
 - [x] filled out the self-reflection.
